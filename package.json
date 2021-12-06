@@ -1,14 +1,15 @@
 {
-  "name": "cssopt",
+  "name": "hast-util-inline-css",
   "version": "0.1.0",
   "description": "Css inliner",
+  "type": "module",
   "main": "dist/index.js",
   "scripts": {
     "test": "npm run test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tani/cssopt.git"
+    "url": "git+https://github.com/tani/hast-util-inline-css.git"
   },
   "keywords": [
     "css",
@@ -18,18 +19,17 @@
   "author": "TANIGUCHI Masaya",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tani/cssopt/issues"
+    "url": "https://github.com/tani/hast-util-inline-css/issues"
   },
-  "homepage": "https://github.com/tani/cssopt#readme",
+  "homepage": "https://github.com/tani/hast-util-inline-css#readme",
   "devDependencies": {
     "@types/css": "^0.0.33",
     "typescript": "^4.5.2"
   },
   "dependencies": {
     "css": "^3.0.0",
-    "hast-util-from-parse5": "^7.1.0",
     "hast-util-select": "^5.0.1",
-    "hast-util-to-html": "^8.0.3",
-    "parse5": "^6.0.1"
+    "hast-util-to-string": "^2.0.0",
+    "unist-util-remove": "^3.1.0"
   }
 }
