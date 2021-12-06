@@ -1,3 +1,4 @@
+// MIT, 2021 (c) TANIGUCHI Masaya
 import { selectAll, HastNode } from "hast-util-select"
 import { toString } from "hast-util-to-string";
 import css from "css"
